@@ -1,3 +1,6 @@
+
+// HOME SECURITY ALARM SYSTEM
+
 #include <LiquidCrystal.h> // for LCD we need to include this library
 #include <Keypad.h> // for Keypad we need to include
 
