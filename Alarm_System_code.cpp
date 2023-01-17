@@ -278,23 +278,23 @@ long getDistance(){
 
 
 
-//if ı will ad water sensor ı will write this code ;
 
-//         const int waterSens= 13;
-//         int waterValue;
-//        void setup(){
-//        pinMode(waterSens, INPUT);
-//        }
 
-//         void loop() {
-//          waterValue= analogRead(waterSens);
-//          Serial.println(waterValue);
-//          if(waterValue<=100){
-//           digitalWrite(buzzer, LOW);
+       const int waterSens= 13;
+        int waterValue;
+        void setup(){
+        pinMode(waterSens, INPUT);
+        }
 
-//             }
-//          else {
-//          if (screenOffMsg == 0 ){
-//          digitalWrite(buzzer, HIGH);
+         void loop() {
+           waterValue= analogRead(waterSens);
+           Serial.println(waterValue);
+           if(waterValue<=100){
+           digitalWrite(buzzer, LOW);
+
+            }
+          else {
+          if (screenOffMsg == 0 ){
+          digitalWrite(buzzer, HIGH);
    
-//            }
+            }
